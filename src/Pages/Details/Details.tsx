@@ -37,7 +37,7 @@ export const Details: React.FC = () => {
                 <span className="free2 w-25">Free</span>
                 <Link
                   className="btn btn-primary border-0 w-75 text-decoration-none "
-                  to={items?.game_url}
+                  to={`${items?.game_url}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
